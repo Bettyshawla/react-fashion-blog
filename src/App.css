@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+.App{
+  padding: 0;
+  margin: auto;
+} 
+
+#par::first-letter{
+  padding: 0 .3rem;
+  margin: 0 .3rem 0 0;
+  font-size: 5rem;
+  float: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+margin-top: 4%;
+margin-left: 4%;
+min-height: 100vh;
+max-width: 1000px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-title {
+font-weight: 400;
+font-size: 5em;
+color: #df4239;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h3 {
+font-size: 2em;
+font-weight: 300;
+margin-top: -4%;
+}
+
+.title {
+font-size: 2.6em;
+font-weight: 300;
+}
+
+.date {
+font-size: 2em;
+color: #cfcfcf;
+text-shadow: black;
+}
+
+#continue {
+color: #df4239;
+float: right;
+font-size: larger;
+font-weight: bold;
+text-decoration: none;
+}
+
+ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.topNav {
+  color: lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+text-decoration: underline;
+color: #cfcfcf;
+font-weight: 500;
+font-size: 1.4em;
+/* width: 100%; */
+}
+
+img {
+width: 100%;
+}
+
+#par {
+color: #829696;
+font-size: x-large;
+width: 100%;
+margin-left: 0;
+}
+
+.first-div {
+  border-bottom: 1px lightgray solid;
+  padding-bottom: 2px;
+}
+
+.second-div{
+  border-bottom: 1px lightgray solid;
+  padding-bottom: 2px;
+}
+
+#navbar{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  margin-top: 7%;
+}
+
+#a{
+  color: #e66b64;
+  text-decoration: none;
+}
+
+footer p {
+  color: #bebebe;
+  font-size: large;
+  margin-bottom: 8%;
+}
+
+article{
+margin-bottom: 4rem;
+}
+
+
+.continue{
+  margin-bottom: 3% ;
+  margin-top: 5%;
+  padding-bottom: 2px;
+}
+
+.continue-bottom{
+  padding-bottom: 2px;
+  margin-bottom: 1% ;
+}
+#date{
+  padding-top: 2%;
 }
